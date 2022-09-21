@@ -89,7 +89,7 @@ body {
 }
 
 .form-group label {
-    display: inline-block;
+    /* display: inline-block; */
     padding-bottom: 6px;
 }
 
@@ -97,4 +97,27 @@ body {
     color: var(--darkblue);
     font-size: 18px;
     font-weight: 400;
+}
+
+.flex-block input {
+    width: auto;
+    margin-right: 4px;
+}
+
+.flex-block label {
+    font-size: 20px;
+}
+
+.flex-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+#comments {
+    margin-left: auto;
+    margin-right: auto;
+    ;
 }
