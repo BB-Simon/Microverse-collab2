@@ -15,9 +15,38 @@
     <p id="description">
       Thank you for taking the time to help us improve the platform
     </p>
-    <div id="">
 
-    </div>
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name" id="name-label">
+          Name
+        </label>
+        <input type="text" id="name" placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email" d="email-label">
+          Email
+        </label>
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+
+      <div class="form-group">
+        <label for="number" id="number-label">Age(optional)</label>
+        <input type="number" min="3" max="20" id="number" placeholder="Age">
+      </div>
+      <div class="form-group">
+        <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+        <select name="dropdown" id="dropdown">
+          <option value="Select an option" disabled>Select an option</option>
+          <option value="Challanges">Challanges</option>
+          <option value="Projects">Projects</option>
+          <option value="Comunity">Comunity</option>
+          <option value="Open source">Open source</option>
+        </select>
+      </div>
+
+    </form>
   </div>
 
   <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
